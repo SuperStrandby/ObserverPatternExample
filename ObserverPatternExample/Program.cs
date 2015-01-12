@@ -20,14 +20,14 @@ namespace ObserverPatternExample
             Console.ReadLine();
             Console.WriteLine();
 
-            Student John = new Student("John");
-            Ebbe.AddObserver(John);
+            Student Per = new Student("Per");
+            Ebbe.AddObserver(Per);
             Ebbe.GiveOrder("Fyr op for musikken!");
 
             Console.ReadLine();
             Console.WriteLine();
 
-            Ebbe.RemoveObserver(John);
+            Ebbe.RemoveObserver(Per);
             Console.ReadLine();
 
         }
